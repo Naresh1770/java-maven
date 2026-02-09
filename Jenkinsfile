@@ -7,8 +7,6 @@ pipeline{
                 branch: 'main'
         }
     }
-  }
-  stages{
     stage('MVN'){
         steps{
            sh 'mvn pacakge'
